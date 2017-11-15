@@ -1,0 +1,349 @@
+html,
+body,
+section {
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#a1 {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	margin-bottom: 0px;
+	border-radius: 0;
+	border: none;
+}
+
+#a1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.a2>a:nth-of-type(2) {
+	margin-left: 70px;
+	margin-top: 20px;
+	display: block;
+	font-size: 24px;
+}
+
+.a3 a {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#s1 {
+	position: relative;
+}
+
+#s1 p {
+	color: white;
+	font-size: 24px;
+}
+
+#s1>ul {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+#s1>ul>li>div>div>div>img {
+	margin-bottom: 40px;
+}
+
+#s1>ul>li {
+	box-sizing: border-box;
+	padding: 194px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	background-size: 100% 100%;
+}
+
+#s1>ol {
+	position: absolute;
+	left: 50%;
+	margin-left: -39px;
+	bottom: 8px;
+}
+
+#s1>ol>li {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-left: 6px;
+	margin-right: 6px;
+	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+	#sec {
+		height: 300px;
+	}
+	#s1 p {
+		color: white;
+		font-size: 15px;
+		line-height: 16px;
+	}
+	#s1 .row {
+		margin: 72px 0;
+	}
+	#a1 {
+		height: 60px;
+		background: rgba(0, 0, 0, .5);
+	}
+	.a4 {
+		background: rgba(0, 0, 0, .5);
+	}
+	.a3 a {
+		font-size: 16px;
+		margin: 0;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+	#s1 {
+		height: 60%;
+	}
+	#s1>ul>li {
+		height: 300px;
+	}
+	#s1>ul>li:nth-of-type(1) {
+		background: url(../images/slide4.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#s1>ul>li:nth-of-type(2) {
+		background: url(../images/slide7.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#s1>ul>li:nth-of-type(3) {
+		background: url(../images/slide9.jpg) no-repeat;
+		background-size: cover;
+	}
+	#s1>ol {
+		display: none;
+	}
+	.b5 p {
+		color: white;
+		font-size: 24px;
+	}
+	.b7>div>p {
+		color: white;
+		font-size: 24px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#sec {
+		height: 646px;
+	}
+	#a1 {
+		height: 80px;
+		background: rgba(0, 0, 0, .2);
+	}
+	#s1 {
+		height: 100%;
+	}
+	#s1>ul>li {
+		background-size: 100% 100%;
+	}
+	#s1>ul>li:nth-of-type(1) {
+		background: url(../images/slide4.jpg) no-repeat center;
+	}
+	#s1>ul>li:nth-of-type(2) {
+		background: url(../images/slide7.jpg) no-repeat center;
+	}
+	#s1>ul>li:nth-of-type(3) {
+		background: url(../images/slide9.jpg) no-repeat;
+	}
+	#s1>ol {
+		display: block;
+	}
+	.b5 p {
+		color: white;
+		font-size: 40px;
+	}
+	.b7>div>p {
+		color: white;
+		font-size: 40px;
+	}
+}
+
+
+.b4 {
+	margin-top: 30px;
+}
+
+.b4>div>h3 {
+	font-size: 30px;
+	color: #777777;
+}
+
+.b4>div>p {
+	font-size: 24px;
+	color: #777777;
+}
+
+.b1>li>div {
+	font-size: 24px;
+	margin: 30px 0;
+}
+
+.b1>li>p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.b2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background: #eeeeee;
+}
+.b3{
+	padding: 10px 10px;
+}
+.b4 {
+	padding-top: 26px;
+	padding-bottom: 10px;
+}
+
+.b5 {
+	height: 100%;
+}
+
+.b6,
+.b7,
+.b8 {
+	line-height: 300px;
+	height: 300px;
+	padding: 130px;
+}
+
+.b6 {
+	background: url(../images/img4.jpg) fixed no-repeat;
+}
+
+.c1 {
+	overflow: hidden;
+}
+
+.c1>li {
+	margin: 10px 0;
+	float: left;
+	width: 50%;
+}
+
+.b7 {
+	background: url(../images/img2.jpg) fixed;
+}
+
+.c2 p {
+	font-size: 18px;
+	color: #777777;
+}
+
+.b8 {
+	background: url(../images/img5.jpg) fixed;
+}
+
+@media only screen and (min-width: 768px) {
+	.c4>.row {
+		padding: 30px;
+	}
+	.aa {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.c4>.row>div {
+		margin: 20px 0;
+	}
+	.b4>div>p {
+		font-size: 18px;
+		color: #777777;
+	}
+	#s1>ul>li {
+		padding: 0;
+	}
+	.aa {
+		display: none;
+	}
+	.bb {
+		padding-top: 30px;
+	}
+	#s1>ul>li>div>div>div>img {
+		margin-bottom: -28px;
+	}
+}
+
+.c44>div >div{
+	border: 1px solid #e8ebee;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+
+.lef,
+.rig,
+.dow,
+.up {
+	opacity: 0;
+	transition: all .4s;
+}
+
+.lef1,
+.rig1,
+.dow1,
+.up1 {
+	opacity: 0;
+	transition: all .4s;
+}
+
+.lef2,
+.rig2,
+.dow2,
+.up2 {
+	opacity: 0;
+	transition: all .4s;
+}
+.lef3,
+.rig3,
+.dow3,
+.up3 ,
+.down1,
+.down2,
+.down3,
+.aup,
+.bup,
+.adown,
+.bdown,
+.cdown,
+.downs1,
+.downs2,
+.downs3{
+	opacity: 0;
+	transition: all .4s;
+}
+.displayBox{
+	position: relative;
+}
+.displayWein{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,.8);
+	opacity: 0;
+}

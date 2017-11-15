@@ -1,0 +1,81 @@
+html,body,section{
+	width: 100%;
+    color: #787878;
+}
+body{
+	overflow-x: hidden;
+}
+.bigbg{
+	width: 100%;
+	
+	background: url(../images/img5.jpg);
+	background-size: 100% 100%;
+}
+.bigbg img,.dow,.up,.lef,.lef1,.rig,.rig1{
+	opacity: 0;
+}
+.a1{
+	padding: 20px;
+}
+.s2{
+		padding-bottom: 54px;
+	}
+@media only screen and (max-width:768px) {
+	.bigbg{
+		height: 300px;
+		background-size:cover;
+	}
+	.bigbg p{
+		margin-top: 140px;
+	}
+
+}
+@media only screen and (min-width: 768px) {
+	.bigbg{
+		height: 646px;
+	}
+	.bigbg p{
+		margin-top: 260px;
+	}
+
+}
+.a1{
+	padding: 40px;
+}
+.a1 h3{
+	font-size: 30px;
+}
+.a1 p{
+	font-size: 24px;
+}
+.a2{
+	font-size: 16px;
+}
+.a2 input{
+	height: 50px;
+	background: #e3e7e4;
+}
+.a2 textarea{
+	background: #e3e7e4;
+}
+.act{
+	color: white;
+	background: #7acdc0;
+}
+.act:hover{
+	color: white;
+}
+.b1{
+	background: url(../images/img2.jpg) fixed;
+	height: 300px;
+	padding: 100px;
+}
+.b2 div ul li{
+	list-style: circle;
+}
+.b2 div h3,.b2 div h4{
+	color: black;
+}
+.mbg{
+	padding-bottom: 30px;
+}
